@@ -1,18 +1,10 @@
-# Car_insurance-Classification-Project
-
-
----
-
-## 5️⃣ `car-insurance-policy-binding-classification` – README.md
-
-```markdown
 # Car Insurance Policy Binding Classification (ISBOUND)
 
 Classification project predicting whether an insurance quote will become a **bound policy**
 (`ISBOUND = 1`) using customer and policy features. Focus on **class imbalance**, **ROC-AUC**,
 and understanding business trade-offs.
 
----
+
 
 ## 1. Project Overview
 
@@ -20,7 +12,7 @@ Insurance companies generate many quotes, but only a subset convert into active 
 This project builds models to predict whether a quote will **bind** so that marketing and
 sales teams can prioritise high-probability leads.
 
----
+
 
 ## 2. Dataset
 
@@ -37,8 +29,6 @@ Data issues handled:
 - Missing values
 - Class imbalance (relatively fewer bound policies than non-bound)
 - Mix of categorical and numerical features
-
----
 
 ## 3. Methods
 
@@ -69,11 +59,11 @@ Data issues handled:
   - Compare different thresholds for “positive” prediction.
   - Discuss trade-offs between capturing more bound policies vs false positives.
 
----
+
 
 ## 4. Repository Structure
 
-```text
+
 car-insurance-policy-binding-classification/
 ├─ data/
 │  ├─ insurance_train.csv
